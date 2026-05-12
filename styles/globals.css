@@ -1,0 +1,53 @@
+/**
+ * EXTENDED DESCRIPTION:
+ *
+ * This globals.css file defines the universal styling for the AI Studio system.
+ * It applies base styles across all pages, ensuring visual consistency and a
+ * clean UI foundation. Next.js 14 automatically loads this file through the
+ * root layout.js file, making it essential for global design.
+ *
+ * This file is responsible for:
+ * - Resetting default browser styles
+ * - Setting global fonts and colors
+ * - Providing consistent spacing and layout rules
+ * - Establishing the visual identity of the system
+ *
+ * Without this file, the UI would look unstyled, inconsistent, and broken.
+ */
+
+/* Reset default browser padding/margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
